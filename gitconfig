@@ -1,0 +1,11 @@
+[user]
+	email = aurangzaib.danial@gmail.com
+	name = Aurangzaib Khan
+[core]
+	editor = vim
+	autocrlf = input
+	excludesfile = /Users/aurangzaib/.gitignore_global
+[color]
+	ui = true
+[init]
+	defaultBranch = master
