@@ -43,7 +43,6 @@ nmap 0 ^
 " Set leader before usage
 let mapleader = "\<Space>"
 
-nmap <leader>vr :vsp $MYVIMRC<cr>
 nmap <leader>so :source $MYVIMRC<cr>
 map <leader>p "+p
 map <leader>y "+y
