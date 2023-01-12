@@ -1,0 +1,4 @@
+Plugin "tpope/vim-surround"
+
+set visualbell
+set noerrorbells

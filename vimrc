@@ -9,7 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 "My bundles
-Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim' " Respects .gitignore
 Plugin 'tpope/vim-surround'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'pangloss/vim-javascript'
@@ -25,6 +25,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " Make CtrlP use ag for listing the files. Way faster and no useless files.
+" Also, does not cache
 let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
 let g:ctrlp_use_caching = 0
 
