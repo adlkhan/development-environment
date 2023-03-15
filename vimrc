@@ -44,7 +44,8 @@ nmap 0 ^
 " Set leader before usage
 let mapleader = "\<Space>"
 
-nmap <leader>so :source $MYVIMRC<cr>
 map <leader>p "+p
 map <leader>y "+y
 nnoremap <leader>n :NERDTreeToggle<CR>
+nmap <leader>s :mksession! session.vim<cr>
+nmap <leader>l :source session.vim<cr>
