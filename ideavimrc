@@ -1,0 +1,5 @@
+Plugin "tpope/vim-surround"
+Plugin "tpope/vim-commentary"
+
+set visualbell
+set noerrorbells
