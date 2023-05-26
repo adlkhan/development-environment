@@ -3,5 +3,5 @@ These are my personal dotfiles that I have configured for my development environ
 Symlink example
 
 ```
-$ ln -s ~/code/dotfiles/vimrc ~/.vimrc
+$ ln -s ~/code/dotfiles/gitconfig ~/.gitconfig
 ```
