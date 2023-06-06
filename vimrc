@@ -21,6 +21,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'preservim/nerdtree'
 Plugin 'MaxMEllon/vim-jsx-pretty'
 Plugin 'lifepillar/vim-solarized8'
+Plugin 'pbrisbin/vim-mkdir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -58,7 +59,7 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nmap <leader>s :mksession! session.vim<cr>
 nmap <leader>l :source session.vim<cr>
 
-set guifont=Monaco:h14
+set guifont=Menlo:h15
 set guicursor+=a:blinkon0
 
 " Disable error bells
@@ -73,3 +74,7 @@ noremap k gk
 " Color scheme
 autocmd vimenter * ++nested colorscheme solarized8
 let g:solarized_old_cursor_style = 1
+
+" Don't wrap long lines
+set nowrap           " do not automatically wrap on load
+set formatoptions-=t " do not automatically wrap text when typing
