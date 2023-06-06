@@ -26,10 +26,11 @@ Plugin 'lifepillar/vim-solarized8'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Make CtrlP use ag for listing the files. Way faster and no useless files.
-" Also, does not cache
-let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
-let g:ctrlp_use_caching = 0
+" Ignore some folders and files for CtrlP indexing
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+  \ }
 
 " Write swp files to /tmp instead of current directory
 set swapfile
