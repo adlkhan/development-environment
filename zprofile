@@ -1,4 +1,4 @@
-export EDITOR=code
+export EDITOR=vim
 
 # Start mvim in a way so that it does not report any errors
 function mvim() {
