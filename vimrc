@@ -77,7 +77,6 @@ noremap k gk
 
 " Color scheme
 syntax enable
-set background=dark
 colorscheme solarized
 
 
