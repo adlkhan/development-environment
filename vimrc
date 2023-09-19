@@ -21,6 +21,8 @@ Plugin 'tpope/vim-sensible'
 Plugin 'preservim/nerdtree'
 Plugin 'MaxMEllon/vim-jsx-pretty'
 Plugin 'pbrisbin/vim-mkdir'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'preservim/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -63,6 +65,13 @@ noremap j gj
 noremap k gk
 
 " Don't wrap long lines
-" set nowrap           " do not automatically wrap on load
-" set formatoptions-=t " do not automatically wrap text when typing
+set nowrap           " do not automatically wrap on load
+set formatoptions-=t " do not automatically wrap text when typing
 
+colorscheme solarized
+
+" Gui options
+set guifont=Monaco:h15
+" End Gui options
+
+let g:vim_markdown_folding_disabled = 1
