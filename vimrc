@@ -74,4 +74,23 @@ colorscheme solarized
 set guifont=Monaco:h15
 " End Gui options
 
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
+
 let g:vim_markdown_folding_disabled = 1
+
+"NERDTree options
+let NERDTreeShowHidden=1
+
+"" Nerdtree open by default
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
+let NERDTreeQuitOnOpen = 0
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+
+"" Ignore some files
+let NERDTreeIgnore = ['\.git$', '\.gitattributes']
+
