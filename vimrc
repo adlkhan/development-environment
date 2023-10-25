@@ -52,7 +52,7 @@ set softtabstop=2
 nmap 0 ^
 
 " Set leader before usage
-let mapleader = "\<Space>"
+let mapleader = "\\"
 
 map <leader>p "+p
 map <leader>y "+y
