@@ -63,7 +63,6 @@ noremap <leader>y "+y
 nnoremap <leader>s :mksession! session.vim<cr>
 nnoremap <leader>l :source session.vim<cr>
 nnoremap <leader>1 :source ~/.vimrc <CR>
-nnoremap <silent><leader>w :set wrap! <CR>
 
 "" move updown by visual (wrapped) lines
 noremap j gj
@@ -105,7 +104,7 @@ let NERDTreeIgnore = ['\.git$', '\.gitattributes']
 "" NERDTree Options End
 
 "" Markdown Options
-let g:markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescript']
+let g:markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescript', 'jsx=javascript']
 "" Markdown Options End
 
 "" CoC Options
