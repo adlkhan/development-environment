@@ -62,7 +62,9 @@ noremap <leader>p "+p
 noremap <leader>y "+y
 nnoremap <leader>s :mksession! session.vim<cr>
 nnoremap <leader>l :source session.vim<cr>
-nnoremap <leader>1 :source ~/.vimrc <CR>
+" toggle background light/dark
+nnoremap <expr><leader>1 &background == 'light' ? ':set bg=dark<cr>' : ':set bg=light<cr>'
+nnoremap <leader>2 :source ~/.vimrc <CR>
 
 "" move updown by visual (wrapped) lines
 noremap j gj
@@ -108,7 +110,7 @@ let g:markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescri
 "" Markdown Options End
 
 "" CoC Options
-let g:coc_global_extensions = ['coc-tsserver']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-json']
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list
