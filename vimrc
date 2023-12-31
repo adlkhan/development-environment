@@ -13,6 +13,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'altercation/vim-colors-solarized'
 Plug 'lifepillar/vim-solarized8'
 Plug 'airblade/vim-gitgutter'
+Plug 'preservim/vim-markdown'
+
 
 " JavaScript
 Plug 'pangloss/vim-javascript'
@@ -41,7 +43,7 @@ set splitbelow
 
 "" Two space tabs
 set autoindent
-set expandtab
+set expandtab " Use spaces instead of tab characters
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
@@ -65,6 +67,7 @@ nnoremap <leader>l :source session.vim<cr>
 " toggle background light/dark
 nnoremap <expr><leader>1 &background == 'light' ? ':set bg=dark<cr>' : ':set bg=light<cr>'
 nnoremap <leader>2 :source ~/.vimrc <CR>
+nnoremap <leader>a ggVG
 
 "" move updown by visual (wrapped) lines
 noremap j gj
@@ -106,7 +109,9 @@ let NERDTreeIgnore = ['\.git$', '\.gitattributes']
 "" NERDTree Options End
 
 "" Markdown Options
-let g:markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescript', 'jsx=javascript']
+let markdown_recommended_style = 0 " Use two spaces for indent
+let g:vim_markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescript', 'jsx=javascript', 'scss=sass']
+let g:vim_markdown_folding_disabled = 1
 "" Markdown Options End
 
 "" CoC Options
