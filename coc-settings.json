@@ -1,3 +1,4 @@
 {
-  "diagnostic.refreshOnInsertMode": true
+  "diagnostic.refreshOnInsertMode": true,
+  "snippets.ultisnips.pythonPrompt": false
 }

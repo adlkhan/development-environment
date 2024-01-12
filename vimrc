@@ -13,6 +13,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'altercation/vim-colors-solarized'
 Plug 'lifepillar/vim-solarized8'
 Plug 'airblade/vim-gitgutter'
+Plug 'honza/vim-snippets'
 
 " JavaScript
 Plug 'pangloss/vim-javascript'
@@ -112,7 +113,7 @@ let g:markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescri
 "" Markdown Options End
 
 "" CoC Options
-let g:coc_global_extensions = ['coc-tsserver', 'coc-json']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-snippets']
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list
