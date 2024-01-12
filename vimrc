@@ -13,8 +13,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'altercation/vim-colors-solarized'
 Plug 'lifepillar/vim-solarized8'
 Plug 'airblade/vim-gitgutter'
-Plug 'preservim/vim-markdown'
-
 
 " JavaScript
 Plug 'pangloss/vim-javascript'
@@ -110,8 +108,7 @@ let NERDTreeIgnore = ['\.git$', '\.gitattributes']
 
 "" Markdown Options
 let markdown_recommended_style = 0 " Use two spaces for indent
-let g:vim_markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescript', 'jsx=javascript', 'scss=sass']
-let g:vim_markdown_folding_disabled = 1
+let g:markdown_fenced_languages = ['html', 'js=javascript', 'ruby', 'ts=typescript', 'jsx=javascript', 'scss=sass', 'css']
 "" Markdown Options End
 
 "" CoC Options
