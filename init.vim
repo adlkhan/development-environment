@@ -6,12 +6,3 @@ call plug#end()
 
 let mapleader = ','
 
-" move updown by visual (wrapped) lines
-if exists('g:vscode')
-  nmap j gj
-  nmap k gk
-else
-  noremap j gj
-  noremap k gk
-endif
-
