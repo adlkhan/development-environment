@@ -17,6 +17,14 @@ Plug 'MaxMEllon/vim-jsx-pretty'
 
 call plug#end()
 
+"" Shortcuts start
+let mapleader = ","
+
+" toggle background light/dark
+nnoremap <expr><leader>b &background == 'light' ? ':set bg=dark<cr>' : ':set bg=light<cr>'
+
+"" Shorcuts end
+
 " Write swp files to /tmp instead of current directory
 set number
 set swapfile
@@ -52,4 +60,5 @@ endif
 if has("gui_running")
   colorscheme solarized
   set guifont=Menlo:h14
+  set background=dark
 endif
