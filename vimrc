@@ -6,7 +6,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-unimpaired'
 Plug 'easymotion/vim-easymotion'
-Plug 'altercation/vim-colors-solarized'
+Plug 'lifepillar/vim-solarized8'
 
 " Ruby
 Plug 'vim-ruby/vim-ruby'
@@ -58,7 +58,8 @@ if has('autocmd')
 endif
 
 if has("gui_running")
-  colorscheme solarized
   set guifont=Menlo:h14
   set background=dark
+  autocmd vimenter * ++nested colorscheme solarized8
+  let g:solarized_old_cursor_style = 1
 endif
