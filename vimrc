@@ -41,7 +41,7 @@ set shiftwidth=2
 set softtabstop=2
 
 " Easy access to the start of the line
-nmap 0 ^
+" nmap 0 ^
 
 " move updown by visual (wrapped) lines
 noremap j gj

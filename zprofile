@@ -7,3 +7,5 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 function mvim() {
     command mvim "$@" > /dev/null 2>&1
 }
+
+export PATH="/usr/local/opt/llvm/bin:$PATH"
