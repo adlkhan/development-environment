@@ -1,9 +1,10 @@
 call plug#begin()
 
-Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-commentary'
 
 call plug#end()
+
+syntax off
 
 "" Shortcuts start
 let mapleader = ","
