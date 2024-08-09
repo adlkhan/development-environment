@@ -5,3 +5,5 @@ Symlink example
 ```
 $ ln -s ~/code/dotfiles/gitconfig ~/.gitconfig
 ```
+
+> Note: Not all files can be symlinked. For example, path to iTerm folder needs to be provided by opening settings of iTerm.
