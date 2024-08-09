@@ -1,5 +1,7 @@
-export EDITOR=vim
+export EDITOR=nvim
 
-# Add Sublime Text to path
-export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+# Add brew's sbin to path
+export PATH="/usr/local/sbin:$PATH"
 
+# Use asdf versions of languages
+. /usr/local/opt/asdf/libexec/asdf.sh
