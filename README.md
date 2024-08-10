@@ -10,6 +10,9 @@ $ ln -s ~/code/dotfiles/gitconfig ~/.gitconfig
 
 ## Setting up terminal
 - Install all required packages based on the dotfiles in this repo.
-- Install iTerm.
+- Install NerdFont.
+```
+brew install --cask font-cascadia-mono-nf
+```
+- Update iTerm to use settings from this repo.
 - Install LazyVim
-- Install NerdFont
