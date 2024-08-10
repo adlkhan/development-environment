@@ -8,3 +8,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 # ohmyzsh settings
 plugins=(git rails)
+
+# Aliases
+alias n="nvim"
