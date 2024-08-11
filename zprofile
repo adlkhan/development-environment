@@ -11,3 +11,6 @@ plugins=(git rails)
 
 # Aliases
 alias n="nvim"
+
+# fzf
+source <(fzf --zsh)
