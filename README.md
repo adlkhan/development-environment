@@ -15,4 +15,4 @@ $ ln -s ~/code/dotfiles/gitconfig ~/.gitconfig
 brew install --cask font-cascadia-mono-nf
 ```
 - Update iTerm to use settings from this repo.
-- Install LazyVim
+- Install LazyVim. Don't forget to run :LazyHealth for finding out which command line apps are still required.
