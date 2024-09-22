@@ -9,5 +9,6 @@ vim.api.nvim_create_autocmd("FileType", {
   pattern = { "markdown", "md" },
   callback = function()
     vim.b.minipairs_disable = true
+    vim.opt_local.spell = false
   end,
 })
