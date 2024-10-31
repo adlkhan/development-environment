@@ -10,5 +10,8 @@ vim.api.nvim_create_autocmd("FileType", {
   callback = function()
     vim.b.minipairs_disable = true
     vim.opt_local.spell = false
+    require("cmp").setup.buffer({
+      enabled = false,
+    })
   end,
 })
