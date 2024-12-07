@@ -4,11 +4,11 @@ return {
     ensure_installed = { "ruby" },
     highlight = {
       enable = true,
-      additional_vim_regex_highlighting = { "ruby" },
+      additional_vim_regex_highlighting = { "ruby", "html" },
     },
     indent = {
       enable = true,
-      disable = { "ruby" },
+      disable = { "ruby", "html" },
     },
   },
 }
