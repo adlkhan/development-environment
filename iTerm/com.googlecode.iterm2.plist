@@ -2649,6 +2649,8 @@
 	<string>8FC9AF21-5531-4451-9D60-896EDF7B7103</string>
 	<key>DisableWindowSizeSnap</key>
 	<false/>
+	<key>HTMLTabTitles</key>
+	<false/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
