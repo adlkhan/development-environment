@@ -7,11 +7,13 @@ call plug#end()
 syntax off
 
 "" Shortcuts start
-let mapleader = ","
+let mapleader = " "
 "" Shorcuts end
 
-" Write swp files to /tmp instead of current directory
+
 set number
+
+" Write swp files to /tmp instead of current directory
 set swapfile
 set dir=/tmp
 

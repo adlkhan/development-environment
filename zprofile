@@ -1,4 +1,4 @@
-export EDITOR=nvim
+export EDITOR=vim
 
 # Add brew's sbin to path
 export PATH="/usr/local/sbin:$PATH"
@@ -7,10 +7,4 @@ export PATH="/usr/local/sbin:$PATH"
 . /usr/local/opt/asdf/libexec/asdf.sh
 
 # ohmyzsh settings
-plugins=(git rails)
-
-# Aliases
-alias n="nvim"
-
-# fzf
-source <(fzf --zsh)
+# plugins=(git rails)
