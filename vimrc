@@ -4,7 +4,7 @@ Plug 'tpope/vim-commentary'
 
 call plug#end()
 
-syntax off
+syntax on
 
 "" Shortcuts start
 let mapleader = " "
