@@ -2,7 +2,7 @@
 	email = aurangzaib.danial@gmail.com
 	name = Aurangzaib Danial Liaqat Khan
 [core]
-	editor = nvim
+	editor = vim
 	autocrlf = input
 	excludesfile = ~/.gitignore_global
 [color]
