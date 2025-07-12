@@ -28,8 +28,8 @@ set shiftwidth=2
 set softtabstop=2
 
 " move updown by visual (wrapped) lines
-noremap j gj
-noremap k gk
+" noremap j gj
+" noremap k gk
 
 " Don't wrap long lines
 set nowrap           " do not automatically wrap on load
@@ -37,3 +37,5 @@ set formatoptions-=t " do not automatically wrap text when typing
 
 " No error bells
 set noerrorbells visualbell t_vb=
+
+set relativenumber
