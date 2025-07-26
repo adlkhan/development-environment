@@ -1,4 +1,4 @@
-These are my personal dotfiles that I have configured for my development environment. Dotfiles in this directory should be symlinked to home directory.
+Most dotfiles need to be symlinked to the home directory for customizing various software.
 
 Symlink example
 
